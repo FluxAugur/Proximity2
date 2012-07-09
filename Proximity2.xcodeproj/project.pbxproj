@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7F08FE815AAE451001665C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F08FE715AAE451001665C7 /* Cocoa.framework */; };
+		A7F08FF215AAE451001665C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7F08FF015AAE451001665C7 /* InfoPlist.strings */; };
+		A7F08FF415AAE451001665C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F08FF315AAE451001665C7 /* main.m */; };
+		A7F08FF815AAE451001665C7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A7F08FF615AAE451001665C7 /* Credits.rtf */; };
+		A7F08FFB15AAE451001665C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F08FFA15AAE451001665C7 /* AppDelegate.m */; };
+		A7F08FFE15AAE451001665C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F08FFC15AAE451001665C7 /* MainMenu.xib */; };
+		A7F0900115AAE451001665C7 /* Proximity2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7F08FFF15AAE451001665C7 /* Proximity2.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7F08FE315AAE451001665C7 /* Proximity2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proximity2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F08FE715AAE451001665C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A7F08FEA15AAE451001665C7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A7F08FEB15AAE451001665C7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7F08FEC15AAE451001665C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7F08FEF15AAE451001665C7 /* Proximity2-Info.plist */ = {isa = PBXFileReference; path = "Proximity2-Info.plist"; sourceTree = "<group>"; };
+		A7F08FF115AAE451001665C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7F08FF315AAE451001665C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7F08FF515AAE451001665C7 /* Proximity2-Prefix.pch */ = {isa = PBXFileReference; path = "Proximity2-Prefix.pch"; sourceTree = "<group>"; };
+		A7F08FF715AAE451001665C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A7F08FF915AAE451001665C7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7F08FFA15AAE451001665C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7F08FFD15AAE451001665C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A7F0900015AAE451001665C7 /* Proximity2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proximity2.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F08FE015AAE451001665C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F08FE815AAE451001665C7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F08FD815AAE451001665C7 = {
+			isa = PBXGroup;
+			children = (
+				A7F08FED15AAE451001665C7 /* Proximity2 */,
+				A7F08FE615AAE451001665C7 /* Frameworks */,
+				A7F08FE415AAE451001665C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F08FE415AAE451001665C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F08FE315AAE451001665C7 /* Proximity2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F08FE615AAE451001665C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7F08FE715AAE451001665C7 /* Cocoa.framework */,
+				A7F08FE915AAE451001665C7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F08FE915AAE451001665C7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7F08FEA15AAE451001665C7 /* AppKit.framework */,
+				A7F08FEB15AAE451001665C7 /* CoreData.framework */,
+				A7F08FEC15AAE451001665C7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A7F08FED15AAE451001665C7 /* Proximity2 */ = {
+			isa = PBXGroup;
+			children = (
+				A7F08FF915AAE451001665C7 /* AppDelegate.h */,
+				A7F08FFA15AAE451001665C7 /* AppDelegate.m */,
+				A7F08FFC15AAE451001665C7 /* MainMenu.xib */,
+				A7F08FFF15AAE451001665C7 /* Proximity2.xcdatamodeld */,
+				A7F08FEE15AAE451001665C7 /* Supporting Files */,
+			);
+			path = Proximity2;
+			sourceTree = "<group>";
+		};
+		A7F08FEE15AAE451001665C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F08FEF15AAE451001665C7 /* Proximity2-Info.plist */,
+				A7F08FF015AAE451001665C7 /* InfoPlist.strings */,
+				A7F08FF315AAE451001665C7 /* main.m */,
+				A7F08FF515AAE451001665C7 /* Proximity2-Prefix.pch */,
+				A7F08FF615AAE451001665C7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F08FE215AAE451001665C7 /* Proximity2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F0900415AAE451001665C7 /* Build configuration list for PBXNativeTarget "Proximity2" */;
+			buildPhases = (
+				A7F08FDF15AAE451001665C7 /* Sources */,
+				A7F08FE015AAE451001665C7 /* Frameworks */,
+				A7F08FE115AAE451001665C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Proximity2;
+			productName = Proximity2;
+			productReference = A7F08FE315AAE451001665C7 /* Proximity2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F08FDA15AAE451001665C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "East Tennessee State University";
+			};
+			buildConfigurationList = A7F08FDD15AAE451001665C7 /* Build configuration list for PBXProject "Proximity2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7F08FD815AAE451001665C7;
+			productRefGroup = A7F08FE415AAE451001665C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F08FE215AAE451001665C7 /* Proximity2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F08FE115AAE451001665C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F08FF215AAE451001665C7 /* InfoPlist.strings in Resources */,
+				A7F08FF815AAE451001665C7 /* Credits.rtf in Resources */,
+				A7F08FFE15AAE451001665C7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F08FDF15AAE451001665C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F08FF415AAE451001665C7 /* main.m in Sources */,
+				A7F08FFB15AAE451001665C7 /* AppDelegate.m in Sources */,
+				A7F0900115AAE451001665C7 /* Proximity2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7F08FF015AAE451001665C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F08FF115AAE451001665C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7F08FF615AAE451001665C7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F08FF715AAE451001665C7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A7F08FFC15AAE451001665C7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F08FFD15AAE451001665C7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F0900215AAE451001665C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7F0900315AAE451001665C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7F0900515AAE451001665C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Proximity2/Proximity2-Prefix.pch";
+				INFOPLIST_FILE = "Proximity2/Proximity2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7F0900615AAE451001665C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Proximity2/Proximity2-Prefix.pch";
+				INFOPLIST_FILE = "Proximity2/Proximity2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F08FDD15AAE451001665C7 /* Build configuration list for PBXProject "Proximity2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F0900215AAE451001665C7 /* Debug */,
+				A7F0900315AAE451001665C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F0900415AAE451001665C7 /* Build configuration list for PBXNativeTarget "Proximity2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F0900515AAE451001665C7 /* Debug */,
+				A7F0900615AAE451001665C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7F08FFF15AAE451001665C7 /* Proximity2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7F0900015AAE451001665C7 /* Proximity2.xcdatamodel */,
+			);
+			currentVersion = A7F0900015AAE451001665C7 /* Proximity2.xcdatamodel */;
+			path = Proximity2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7F08FDA15AAE451001665C7 /* Project object */;
+}
